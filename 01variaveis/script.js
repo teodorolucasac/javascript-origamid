@@ -1,41 +1,17 @@
+// Declarar uma variável com o seu nome
 var nome = 'Lucas';
-var idade = 28;
-var possuiFaculdade = true;
+
+// Declarar uma variável com a sua idade
+var idade = 27;
+
+// Declarar uma variável com a sua comida
+// favorita e não atribuir valor
+var comidaFavorita;
+// Atribuir valor a sua comida favorita
+comidaFavorita = 'Chocolate';
+
+// Declarar 5 variáveis diferentes sem valores
+var pais, estado, cidade, bairro, rua;
 
 
-console.log (nome, idade, possuiFaculdade, nome);
-
-
-
-var preco = 25;
-var totalComprado = 5;
-var totalPreco = totalComprado * preco
-
-console.log (totalPreco);
-
-
-var sobrenome = 'Rafael',
-    cidade = 'Rio';
-
-console.log(sobrenome, cidade);
-
-
-
-var semDefinir;
-console.log(semDefinir);
-
-// console.log(aindaNaoDefini);
-
-var comida;
-console.log (comida);
-comida = 'Pizza';
-console.log (comida);
-
-
-
-/* const time = 'Vasco';
-time = 'Flamengo';
-
-console.log(time);
-*/
-
+console.log(nome, idade, comidaFavorita)
