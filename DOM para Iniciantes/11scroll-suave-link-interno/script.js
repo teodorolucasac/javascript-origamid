@@ -40,7 +40,7 @@ if(accordionList.lenght) {
 }
 initAccordion();
 
-function initScrollSuave {
+function initScrollSuave() {
 const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
 
 function scrollToSection (event) {
