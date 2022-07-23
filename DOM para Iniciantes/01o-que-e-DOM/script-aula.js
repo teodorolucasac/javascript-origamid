@@ -9,5 +9,5 @@ function callbackh1(){
 }
 
 
-h1Selecionado.addEventListener('click', callbackh1)
+h1Selecionado.addEventListener('click', callbackh1);
 
